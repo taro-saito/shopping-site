@@ -34,10 +34,6 @@
                         <a href="#"><img src="./images/facebook.png" alt="facebook"></a>
                         <a href="#"><img src="./images/insta.png" alt="instaglam"></a>
                   </div>
-                 
-                 <div class="sp_logo">
-                     <img src="./images/logo@2x.png" alt="APPLE BERRYロゴ">
-                  </div>
         
               <div class="sp_navi">
                     <p><img src="./images/fb@2x.png" alt="facebook"></p>
@@ -45,10 +41,10 @@
                     <div id="sp_navi_btn"><img src="./images/menu_icon@2x.png" alt="メニューバー"></div>
                     
                     <ul class="sp_navi_li_toggle">
-                      <li><a href=""></a><img src="./images/menu_login.png" alt="メニューバー"></li>
-                      <li><a href=""></a><img src="./images/menu_cart.png" alt="メニューバー"></li>
-                      <li><a href=""></a><img src="./images/menu_mypage.png" alt="メニューバー"></li>
-                      <li><a href=""></a><img src="./images/menu_guide.png" alt="メニューバー"></li>
+                      <li><a class="login" href="#"><img src="./images/menu_login.png" alt="メニューバー"></a></li>
+                      <li><a class="cart" href="#"><img src="./images/menu_cart.png" alt="メニューバー"></a></li>
+                      <li><a class="mypage" href="#"><img src="./images/menu_mypage.png" alt="メニューバー"></a></li>
+                      <li><a class="shopping" href="#"><img src="./images/menu_guide.png" alt="メニューバー"></a></li>
                     </ul>
                </div>
           </div> <!--container_flexbox -->
@@ -58,11 +54,11 @@
 <div id="contents">
     <div class="container">
     　<div class="cover">
-        <div class="gray_box"><img src="./images/home_icon.png" alt="ホーム画像"><span class="home">　HOME　/　カテゴリー名　/　商品名　</span></div>   
+        <div class="gray_box"><img class="gazolist" src="./images/home_icon.png" alt="ホーム画像"><span class="home">　HOME　/　カテゴリー名　/　商品名</span></div>   
           <div class="white">
          <p class="top">商品名が入ります</p> <span class="color_gray">fa0000-91</span>
          
-       <p class="lain">ライン</p>
+       <p class="lain1">ライン</p>
        <div class="rap">
         <div id="display_img"><img src="./images/pro_img_01.jpg" alt="アイテム"></div>
          <ul id="list_img">
@@ -71,10 +67,16 @@
           <li class="il"><img src="./images/pro_img_03.jpg" alt="アイテム"></li>
           <li class="il"><img src="./images/pro_img_04.jpg" alt="アイテム"></li>
           <li class="il"><img src="./images/pro_img_05.jpg" alt="アイテム"></li>
+          <li class="il"><img src="./images/gray_pro_img.jpg" alt="アイテム"></li>
+          <li class="il"><img src="./images/gray_pro_img.jpg" alt="アイテム"></li>
+          <li class="il"><img src="./images/gray_pro_img.jpg" alt="アイテム"></li>
+          <li class="il"><img src="./images/gray_pro_img.jpg" alt="アイテム"></li>
+          <li class="il"><img src="./images/gray_pro_img.jpg" alt="アイテム"></li>
+         
          </ul>
         </div>
-         <p class="lain">ライン</p>
-           <img src="./images/title_color.png" alt="カラー、サイズ">
+         <p class="lain3">ライン</p>
+           <img class="color_size" src="./images/title_color.png" alt="カラー、サイズ">
              <div class="table1">
              <table>
               <tr>
@@ -91,35 +93,49 @@
           </div>
            <div class="price">
           <p class="lain">ライン</p>
-          <img src="./images/title_price.png" alt="プライス"><i>　　￥１，０００</i>(tax in)
+          <img src="./images/title_price.png" alt="プライス"><i>　　　　￥<span class="rem">1,000</span></i>　(tax in)
           <p class="lain">ライン</p>
            </div>
            <img class="add" src="./images/add_to_cart.png" alt="add cart">
-           <p class="quantity"><img src="./images/title_quantity.png" alt="数量">　<input type="number" style="width:100px:"></p>
-         <p class="lain">ライン</p>
+           <p class="quantity"><img src="./images/title_quantity.png" alt="数量">　　　<input type="number" style="width:90px;"></p>
+         <p class="lain4">ライン</p>
             <div class="seacret"></div>
-            <p>商品説明</p>
-         <p class="lain2">ライン</p>  
-           <p> ■説明タイトル説明タイトル説明タイトル説明タイトル</p>
-            <p>説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト</p>
+            <div class="message2">
+            <p class="down2">商品説明</p>
+         <p class="lain2">ライン</p>
+           <p class="title_m"> ■説明タイトル説明タイトル説明タイトル説明タイトル</p>
+            <p class="text_m">説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明<br>テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキ<br>スト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト</p>
           
+          <div class="pc_table">
+         <table>
+              <tr>
+                <th>カラー</th>
+                  <td>説明文がはいります説明文がはいります説明文がはいります</td>
+              </tr>
+              <tr>
+               <th>サイズ</th>
+               <td>説明文がはいります説明文がはいります説明文がはいります</td>
+            </tr>
+          </table>
+          </div>
          <div class="sp_table">
          <table>
               <tr>
                 <th>カラー</th>
-                  <td>説明がはいります説明がはいります</td>
+                  <td>説明文がはいります説明文がはいります</td>
               </tr>
               <tr>
                <th>サイズ</th>
-               <td>説明がはいります説明がはいります</td>
+               <td>説明文がはいります説明文がはいります</td>
             </tr>
           </table>
           </div>
+          </div><!--message2 -->
         </div><!--white -->
         
           <div class="title">
-                 <img class="pc" src="./images/recent_pro_pc.png" alt="最近見た商品">
-                 <img class="sp" src="./images/title_recent_pro@2x.png" alt="最近見た商品">
+                 <img class="pc3" src="./images/recent_pro_pc.png" alt="最近見た商品">
+                 <img class="sp3" src="./images/title_recent_pro@2x.png" alt="最近見た商品">
          </div>
          <article class="new_box">   
             <div class="new_item">
@@ -143,28 +159,28 @@
         
         <div class="title">
            <img class="pc" src="./images/title_guide.png" alt="ショッピングガイド">
-           <img class="sp" src="./images/title_guide@2x.png" alt="ショッピングガイド">
+           <img class="spp" src="./images/title_guide@2x.png" alt="ショッピングガイド">
                 
         </div>
         
-    <div class="guide">
+     <div class="guide">
         <div class="box2">
-        <h5>お届けについて</h5>
-        <img src="./images/otodoke_banner.png" alt="配送画像">
-            <p>■○○運送</p>
-            <p>送料￥０００円
-            <p>■ゆうパケット</p>
-            <p>ポスト投函になります、日時指定不可
+        <h6>お届けについて</h6>
+        <img class="haiso" src="./images/otodoke_banner.png" alt="配送画像">
+         <p class="box2_gray">■○○運送</p>
+            <p class="upp">送料￥０００円</p>
+            <p class="box3_gray">■ゆうパケット</p>
+            <p class="uppp">ポスト投函になります。日時指定不可</p>
         
         </div>
        <div class="box2">
-        <h5>決算について</h5>
-            <p>■カード決算</p>
-            <p><img src="./images/cards.png" alt="カード画像">
-            <p>■代金引換</p>
-            <p>代引き手数料が別途かかります
-            <p>■銀行振込</p>
-            <p>お振込手数料お客様負担<br>ご入金後の発送となります
+        <h6>決算について</h6>
+            <p class="box2_gray">■カード決算</p>
+            <p class="upp"><img src="./images/cards.png" alt="カード画像"></p>
+            <p class="box3_gray">■代金引換</p>
+            <p class="uppp">代引き手数料が別途かかります</p>
+            <p class="box4_gray">■銀行振込</p>
+            <p class="upppp">お振込手数料お客様負担。<br>ご入金後の発送となります。</p>
  
        </div>
       </div><!--guide -->
@@ -173,58 +189,59 @@
          <div class="pc_sidemenu2">
           <div class="search_box">
                  <img src="./images/itemserch.png" alt="serch">
-                     <input type="search" name="q" placeholder="search.." size="15" id="form" >
+                     <input class="ccc" type="search" name="q" placeholder="search.." size="15" id="form" >
           </div>
-                 <div class="s_box1">　<img src="./images/pagelink.png" alt="ページリンク">　　　　　<img src="./images/next_icon.png" alt="next bottom"></div>
-                 <div class="s_box2">　<img src="./images/categories.png" alt="カテゴリー">　　　　　<img src="./images/down_icon.png" alt="down bottom"></div>
+                 <div class="s_box1">　<img src="./images/pagelink.png" alt="ページリンク">　<img class="icon" src="./images/next_icon.png" alt="next bottom"></div>
+                 <div class="s_box2">　<img src="./images/categories.png" alt="カテゴリー"><img class="icon" src="./images/down_icon.png" alt="down bottom"></div>
              
              <ul class="s_box3">
-                 <li>　カテゴリー名　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　カテゴリー名　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　カテゴリー名　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　カテゴリー名　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　カテゴリー名　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　カテゴリー名　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
             </ul>
                  
                  <div class="s_box4">
                      <div class="about">　<img src="./images/about.png" alt="about"></div>
-                   <img src="./images/about_img.jpg" alt="画像">
-                  <p class="shop">お店の説明が入りますお店の説明が入りますお店の説明が入ります</p>
+                   <img class="gazo5" src="./images/about_img.jpg" alt="画像">
+                  <p class="shop">お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
                   <div class="more"><img src="./images/more_btn.png" alt="more"></div>
                  </div>
                  
                  <div class="s_box5">
                      <div class="info">　<img src="./images/shop_info.png" alt="info"></div>
-                   <img src="./images/shopinfo_img.jpg" alt="画像">
-                   <p class="shop">お店の説明が入りますお店の説明が入りますお店の説明が入ります</p>
+                   <img class="gazo5" src="./images/shopinfo_img.jpg" alt="画像">
+                   <p class="shop">お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
                    <div class="more"><img src="./images/more_btn.png" alt="more"></div>
                  </div>
          </div><!-- pc_sidemenu2-->
         </div><!-- pc_sidemenu-->
       
-  <div class="sp_sidemenu">
+  
     <div class="seach">
-       <input type="search" name="q" placeholder="search.." size="25" id="form1">
+       <input class="cccc" type="search" name="q" placeholder="search.." size="25" id="form1">
     </div>  
-      <div class="s_box1">　<img src="./images/pagelink.png" alt="ページリンク">　　　　　　　　<img src="./images/next_icon.png" alt="button"></div>
-      <div class="s_box2">　<img src="./images/categories.png" alt="カテゴリー">　　　　　　　<img src="./images/down_icon.png" alt="button"></div>
+      <div class="sp_sidemenu">
+      <div class="s_box1">　<img src="./images/pagelink.png" alt="ページリンク">　<img class="icon2" src="./images/next_icon.png" alt="button"></div>
+      <div class="s_box2">　<img src="./images/categories.png" alt="カテゴリー"><img class="icon2" src="./images/down_icon.png" alt="button"></div>
              
              <ul class="s_box3">
-                 <li>　　カテゴリー名　　　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　　カテゴリー名　　　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　　カテゴリー名　　　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　　カテゴリー名　　　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　　カテゴリー名　　　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
-                 <li>　　カテゴリー名　　　　　　<img src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
+                 <li>　カテゴリー名　<img class="icon2" src="./images/next_icon_gray.png" alt="next bottom"></li>
             </ul>
-       <div class="about">　
+    <div class="about">　
          <img src="./images/about.png" alt="about">
        </div>
          <div class="s_box4">
            <img class="gazo" src="./images/about_img.jpg" alt="画像">
             <div class="message">
-             <p>お店の説明が入りますお店の説明が入りますお店の説明が入ります</p>
+             <p>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
              <img src="./images/more_btn.png" alt="more">
            </div>
          </div>
@@ -234,8 +251,8 @@
          <div class="s_box5">
            <img class="gazo" src="./images/shopinfo_img.jpg" alt="画像">
             <div class="message">
-             <p>お店の説明が入りますお店の説明が入りますお店の説明が入ります</p>
-             <img src="./images/more_btn.png" alt="more">
+             <p>お店の説明お店の説明お店の説明がはいりますお店の説明お店の説明お店の説明</p>
+             <img src="./images/more_btn.png"  alt="more">
             </div>
          </div>     
      </div><!--sp_sidemenu -->
@@ -247,11 +264,10 @@
    <div id="footer">
        <div class="container">
           <div class="text">
-             <a href="#TOP"><img src="./images/pagetop.png" alt="ページトップ"></a>
+             <a href="#TOP"><img class="pagetop" src="./images/pagetop.png" alt="ページトップ"></a>
              <p class="lain">ライン</p>
-        
-            <p>特定商取引に基づく表記　・　プライバシーポリシー　・　マイページ</p>
-                 <p class="gray">copyright [C] APPLE BERRY all right resarved</p>
+            <p>特定商取引に基づく表記・プライバシーポリシー・マイページ</p>
+             <p class="gray">copyright [C] APPLE BERRY all right resarved</p>
             
            </div><!--text -->
          </div><!--contaiter -->
