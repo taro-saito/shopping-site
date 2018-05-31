@@ -7,19 +7,19 @@ html {
   background-color: #f9f8f6;
   padding: 0;
   margin: 0;
-    width: 100%;
 }
 body{
     font-family: 'Open Sans', 'Noto Sans JP', sans-serif;
   font-size: 13px;
   font-weight: 500;
+  width: 100%;
 }
+
 h6{
      font-family: 'Open Sans', 'Noto Sans JP', sans-serif;
   font-size: 17px;
   font-weight: 500;
   color: #887f69;
-  padding: 10px 0 5px 10px;
     
 }
 .box2_gray{
@@ -40,6 +40,7 @@ h6{
 .upp{
     position: relative;
     bottom: 30px;
+    width: 100%;
 }
 .uppp{
     position: relative;
@@ -49,11 +50,7 @@ h6{
     position: relative;
     bottom: 80px;
 }
-.haiso{
-    position: relative;
-    left: 10px;
-    bottom: 10px;
-}
+
 .container .new_box{
         background-color: #fff;
 }
@@ -70,9 +67,7 @@ h6{
     width: 100%;
     background-color: #e8e4da;
 }
-#contents{
-    width: 100%;
-}
+
 #form1{
     font-size: 1.4rem;
     background-color: #eee;
@@ -99,20 +94,20 @@ h6{
         float: left;
        
     }
-    
-
-#header .logo{
-    width: 48%;
+#header{
+    width: 100%;
     padding-top: 40px;
+}
+.logo{
+    width: 80%;
     
 }
 .pc_navi{
-    position: relative;
-    top: 50px;
-    left: 90px;
+    display: flex;
+    padding: 20px 0;
 }
 .pc_navi a{
-    padding-right: 10px;
+    padding-left: 10px;
 }
 .flexbox{
     display: flex;
@@ -127,10 +122,16 @@ h6{
 .sp_navi{
     display: none;
 }
+.sp_navi_li_toggle{
+    display: none;
+}
+.title img{
+    width: 100%;
+}
 .title .pc{
     margin: 20px 0;
-    
 }
+
 .title .sp{
     display: none;
 }
@@ -144,11 +145,15 @@ h6{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
 }
 .container .new_item{
     width: 32%;
     text-align: center;
      border: solid 1px #f9f8f6;
+}
+.new_item img{
+    width: 100%;
 }
 .new_item p{
     text-align: left;
@@ -163,20 +168,22 @@ h6{
 }
  .guide{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .box2{
     width: 48%;
-    border: solid 1px #f9f8f6;
-    padding: 10px 0 0 10px;
+    border: solid 2px #f9f8f6;
+    padding: 10px;
+}
+.haiso img{
+    width: 50%;
+}
+.upp img{
+    width: 100%;
 }
 .box2 p{
     text-align: left;
-    padding-left: 10px;
 }
-
 
 .text p .gray{
     font: color #c8c5be;
@@ -188,10 +195,10 @@ h6{
 }
 
 .pc_sidemenu .search_box{
-    position: relative;
-    left: 15px;
-    top: 10px;
     margin: 0 0 30px 0;
+    padding-top: 10px;
+    width: 100%;
+    padding-left: 5%;
 }
 #form{
     width: 85%;
@@ -204,30 +211,35 @@ h6{
 .s_box1{
     background-color: #887f69;
     margin: 5px 0;
-    padding-top: 10px;
-    height: 30px;
-}
+    padding: 10px 5px;
+    height: 20px;
+    padding-left: 5%;
+} 
 .s_box2{
     background-color: #887f69;
-    padding-top: 10px;
-    margin-top: 10px;
-     height: 30px;
+    margin: 5px 0;
+    padding: 10px 5px;
+    height: 20px;
+    padding-left: 5%;
 }
 .icon{
-    position: relative;
-    left: 90px;
+    position: absolute;
+    right: 0;
+    padding-right: 1%;
+    padding-top: 3px;
 }
 
 .s_box3{
     list-style: none;
-    
 }
 .s_box3 li{
-    padding: 9px 0;
+    padding: 10px 0;
+       padding-left: 5%;
 }
 .icon2{
-    position: relative;
-    left: 88px;
+    position: absolute;
+    right: 0;
+    padding-right: 1%;
 }
 
 .s_box4{
@@ -290,18 +302,17 @@ p{
 .sp_sidemenu{
     display: none;
 }
-.pc_sidemenu{
-    position: relative;
-    right: 15px;
+.gazo5{
+    max-width: 100%;
 }
 
                              /*products 追加 */
 
 .white{
     background-color: #fff;
-    padding: 10%;
-    height: 1200px;
-    margin-bottom: 40px;
+    height: auto;
+    padding: 8%;
+    padding-bottom: 0;
 }
 .gray_box{
      color: #887f69;
@@ -316,12 +327,12 @@ p{
 }
 .color_gray{
     color: #e8e4da;
-    position: relative;
-    left: 90%;
-    bottom: 65px;
+    position: absolute;
+    left: 60%;
+    top: 2.6%;
 }
 .price{
-    width: 50%;
+    width: 60%;
     position: relative;
     bottom: 70px;
     
@@ -336,21 +347,23 @@ p{
     clear: both;
     position: relative;
     bottom: 160px;
+    width: 35%;
 }
 .white p{
     text-align: left;
 }
 .rap{
     display: flex;
+    width: 100%;
 }
 .il {
   list-style: none;
-  display: inline-block;
+  width: 30%;
+  padding-left: 5%;
+  margin-bottom: 7px;
 }
 .il img {
-  width: 65px;
   cursor: pointer;
-  padding: 0 0 0 10px;
 
 }
 .white .lain4{
@@ -370,6 +383,12 @@ p{
     text-indent: 100%;
     white-space: nowrap;
       
+}
+.ta{
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    left: 25%;
 }
 .white .lain1{
      border-bottom: solid 1px #e8e4da;
@@ -403,13 +422,23 @@ p{
     color: #887f69;
     font-size: 1.5rem;
 }
+#display_img img{
+    width: 100%
+}
 #display_img{
     position: relative;
     bottom: 50px;
+    width: 100%;
+}
+#list_img img{
+    width: 100%;
 }
 #list_img{
     position: relative;
     bottom: 50px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .color_size{
     position: relative;
@@ -468,10 +497,9 @@ p{
 
 
 @media (max-width:500px){
-    
     .logo{
-        text-align: center;
-        margin-top: 20px;
+      text-align: center;
+      margin-top: 20px;
     }
     .pc_navi{
         display: none;
@@ -479,61 +507,52 @@ p{
     img{
         max-width: 100%;
     }
-    .sp_navi img{
-        width: 75%;
-    }
+     .sp_navi img{
+         width: 30px;
+     }
     .sp_navi{
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 70px 0;
-        text-align: center;
-        
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin: 10px 30% 0;
     }
+
+    
     #sp_navi_btn{
         cursor: pointer;
     }
-     a{
-        display: block;
-        margin: 0 60px 0 0;
+     .sp_navi_li_toggle{
+       display: none;
+     }
+   .sp_navi_li_toggle li{
+        height: 40px;
+        background-color: #ff6d77;
+        width: 100%;
+        margin: 0;
+        padding-left: 10px;
+        
         
     }
-    .login{
-        width: 45%;
-        position: relative;
-        right: 5px;
-    }
-     .cart{
-        width: 38%;
-        position: relative;
-        right: 3px;
-    }
-     .mypage{
-        width: 60%;
-        position: relative;
-        right: 5px;
+    .sp_navi_li_toggle li:after{
+        content: "";
+        position: absolute;
+        right: 10px;
+        left: 5px;
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: #f9f8f6;
+        margin: 0 0 3px 5px;
         
-    }
-     .shopping{
-        width: 120%;
-        position: relative;
-        right: 13px;
     }
     
-    .sp_navi_li_toggle{
-        display: none;
-        list-style-type: none;
-        line-height: 6px;
-         position: absolute;
-         top: 45px;
-         left: 230px;
-         
+    .sp_navi_li_toggle li a{
+        color: #f9f8f6;
+         font-size: 16px;
+         text-decoration: none;
+         position: relative;
+         top:7px;
     }
-   
-    .cover{
-        position: relative;
-        bottom: 30px;
-    }
-
     
     .title{
         margin: 10px 0;
@@ -596,7 +615,7 @@ p{
    position: relative;
    bottom: 40px;
    margin-bottom: 10px;
-    
+    margin-top: 20px;
 }
 
 .s_box1{
@@ -618,10 +637,14 @@ p{
 }
 .s_box3 li{
      height: 40px;
+     width: 100%;
+     padding-left: 5%;
 }
 .icon2{
-    position: relative;
-    left: 150px;
+    position: absolute;
+    right: 0;
+    padding-right: 3%;
+    padding-top: 3px;
 }
 .about{
     background-color: #887f69;
@@ -674,7 +697,6 @@ p{
 .pagetop{
     width: 50%;
     position: relative;
-    left: 40px;
 }
 #footer{
     width: 100%;
@@ -870,6 +892,10 @@ li {
     white-space: nowrap;
     
 }
+.ta{
+    display: inline-block;
+    padding-left: 15%;
+}
                              /*list*/
 .gazolist{
     width: 6%;
@@ -898,12 +924,11 @@ li {
 }
 
 
-
 .owl-theme .owl-dots .owl-dot span {
     width: 25px;
     height: 2px;
     margin: 0px 5px;
-    background: #D6D6D6;
+    background: #d6d6d6;
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity .2s ease;
@@ -913,12 +938,15 @@ li {
     right: 5px;
     
 }
+
+ .owl-theme .owl-dots .owl-dot.active span{
+    background-color: #ff0000;
+    
+}
+
 .owl-theme .owl-dots, .owl-theme .owl-nav{
     text-align: left;
 }
-
-
-
 
 
 .white .lain2{
@@ -981,6 +1009,7 @@ th{
 .title{
     position: relative;
     bottom: 30px;
+    
 }
 .new_box{
     position: relative;
@@ -990,4 +1019,6 @@ th{
     position: relative;
     bottom: 30px;
 }
+
+
 
