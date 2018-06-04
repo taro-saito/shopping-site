@@ -51,9 +51,6 @@ h6{
     bottom: 80px;
 }
 
-.container .new_box{
-        background-color: #fff;
-}
 .guide .box2{
     background-color: #fff;
     height: 280px;
@@ -141,27 +138,28 @@ h6{
 
 
 .container .new_box{
-    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
 .container .new_item{
-    width: 32%;
+    width: 29%;
     text-align: center;
-     border: solid 1px #f9f8f6;
+    padding: 2.1%;
+    background-color: #fff;
+    border-bottom: solid 2px #f9f8f6;
 }
 .new_item img{
     width: 100%;
 }
 .new_item p{
     text-align: left;
-   padding: 0 7px;
 }
 .money{
     position: relative;
     bottom: 15px;
+    margin: 0;
 }
 .money b{
     letter-spacing: -0.2em;
@@ -195,29 +193,29 @@ h6{
 }
 
 .pc_sidemenu .search_box{
-    margin: 0 0 30px 0;
+       margin: 0;
     padding-top: 10px;
     width: 100%;
     padding-left: 5%;
+    border-bottom: solid 8px #f9f8f6;
 }
 #form{
     width: 85%;
     position: relative;
     left: 3px;
-    top: 10px;
-    
+    top: 5px;
+    border-radius: 1%;
 }
 
 .s_box1{
     background-color: #887f69;
-    margin: 5px 0;
     padding: 10px 5px;
     height: 20px;
     padding-left: 5%;
-} 
+    border-bottom: solid 8px #f9f8f6;
+}  
 .s_box2{
     background-color: #887f69;
-    margin: 5px 0;
     padding: 10px 5px;
     height: 20px;
     padding-left: 5%;
@@ -231,6 +229,9 @@ h6{
 
 .s_box3{
     list-style: none;
+    margin:0;
+    border-bottom: solid 10px #f9f8f6;
+    padding-top: 10px;
 }
 .s_box3 li{
     padding: 10px 0;
@@ -244,8 +245,7 @@ h6{
 
 .s_box4{
     text-align: center;
-    position: relative;
-    bottom: 17px;
+    border-bottom: solid 12px #f9f8f6;
 }
 .s_box4 .about{
      background-color: #887f69;
@@ -255,8 +255,6 @@ h6{
 }
 .s_box5{
     text-align: center;
-    position: relative;
-    bottom: 17px;
 }
 .s_box5 .info{
     background-color: #887f69;
@@ -274,9 +272,7 @@ h6{
 .more{
     text-align: center;
     position: relative;
-    bottom: 15px;
-    padding: 10px 0;
-    padding-bottom: 20px;
+    bottom: 10px;
 }
 .text{
     text-align: right;
@@ -319,7 +315,7 @@ p{
      margin-bottom: 0;
 }
 .top{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: 0;
    position: relative;
@@ -355,12 +351,15 @@ p{
 .rap{
     display: flex;
     width: 100%;
+    position: relative;
+    bottom: 50px;
 }
 .il {
-  list-style: none;
-  width: 30%;
-  padding-left: 5%;
-  margin-bottom: 7px;
+      list-style: none;
+    width: 44%;
+    padding-left: 5%;
+    margin: 0;
+    padding-bottom: 2px;
 }
 .il img {
   cursor: pointer;
@@ -389,6 +388,7 @@ p{
     position: absolute;
     top: 35%;
     left: 25%;
+    width: 80%;
 }
 .white .lain1{
      border-bottom: solid 1px #e8e4da;
@@ -426,19 +426,15 @@ p{
     width: 100%
 }
 #display_img{
-    position: relative;
-    bottom: 50px;
-    width: 100%;
+    width: 70%;
 }
 #list_img img{
     width: 100%;
 }
 #list_img{
-    position: relative;
-    bottom: 50px;
-    width: 60%;
     display: flex;
     flex-wrap: wrap;
+    width: 30%;
 }
 .color_size{
     position: relative;
@@ -467,7 +463,7 @@ p{
     }
     .categazo{
         width: 100%;
-        padding: 10px 0;
+        padding: 5px 0 10px 0;
         margin-bottom: 20px;
     }
     .categazo_sp{
@@ -577,8 +573,9 @@ p{
 }
 .new_item{
     width: 42%;
-    margin: 10px;
-    border: solid 1px #f9f8f6;
+    background-color: #fff;
+    border-bottom: solid 2px #f9f8f6;
+    padding: 3.8%;
 }
 .money{
     position: relative;
@@ -608,37 +605,42 @@ p{
 #form1{
     width: 90%;
     height: 30px;
-    margin: 20px 0 30px 15px;
+    margin: 20px 0 20px 15px;
+    border-radius: 1%
 }
 .seach{
    background-color: #fff;
    position: relative;
    bottom: 40px;
-   margin-bottom: 10px;
-    margin-top: 20px;
+   margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 .s_box1{
     background-color: #887f69;
     padding: 10px 0;
-    margin: 0 0 10px;
+     border-bottom: solid 10px #f9f8f6;
 }
 .s_box2{
     background-color: #887f69;
      padding: 10px 0;
-     margin: 10px 0;
+     margin: 0 0 10px 0;
 }
 .s_box3{
     list-style: none;
      display: flex;
     flex-wrap: wrap;
     padding-right: 100px;
+    border-bottom: solid 10px #f9f8f6;
+    margin: 0;
     
 }
 .s_box3 li{
      height: 40px;
      width: 100%;
      padding-left: 5%;
+     margin: 0;
+    margin-top: 10px;
 }
 .icon2{
     position: absolute;
@@ -649,15 +651,12 @@ p{
 .about{
     background-color: #887f69;
     padding: 10px;
-    position: relative;
-    bottom: 30px;
     
 }
 .s_box4{
     display: flex;
-    position: relative;
-    bottom: 30px;
     padding-bottom: 0;
+    border-bottom: solid 10px #f9f8f6;
 }
 
 .gazo{
@@ -671,8 +670,6 @@ p{
 }
 .s_box5{
     display: flex;
-     position: relative;
-    bottom: 30px;
     padding-bottom: 0;
     margin-bottom: 40px
 }
@@ -895,6 +892,7 @@ li {
 .ta{
     display: inline-block;
     padding-left: 15%;
+    width: 60%;
 }
                              /*list*/
 .gazolist{
@@ -977,6 +975,8 @@ i{
 }
 .rem{
     font-size: 2.5rem;
+     padding-right: 3%;
+
 }
 th{
     background-color: #f9f8f6;
@@ -995,12 +995,14 @@ th{
     color: #fff;
     width: 120px;
     font-size: 1.3rem;
+    border-radius: 1%;
 }
 .bottom2 .next{
     background-color: #887f69;
     color: #fff;
     width: 120px;
     font-size: 1.3rem;
+    border-radius: 1%;
 }
 .bottom2{
     display: flex;
@@ -1013,7 +1015,7 @@ th{
 }
 .new_box{
     position: relative;
-    bottom: 30px;
+    bottom: 25px;
 }
 .guide{
     position: relative;
